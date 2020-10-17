@@ -1,0 +1,1 @@
+Esta aplicacion se encarga de enviar las peticiones de credito, se recopila la informacion necesaria de la pyme
