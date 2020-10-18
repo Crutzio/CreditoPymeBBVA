@@ -11,7 +11,7 @@ En este reto se crearon dos sistemas:
 - CreditosPyme es un sistema que se encarga de recibir todas las peticiones generadas por la aplicacion CreditoPyme y permite ejecutar un algoritmo que va a identificar si
 la Pyme es sujeta o no a credito.
 
--------------------------------------------------------------------------
+
 
 Guia de instalacion:
 
@@ -28,5 +28,3 @@ Guia de instalacion:
    +installer
      -+Volume
       --setup (Ejecutar como administrador)
-
--------------------------------------------------------------------------
