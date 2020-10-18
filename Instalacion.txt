@@ -1,0 +1,15 @@
+Guia de instalacion:
+
+-- Compiles
+
+ +CreditosPyme
+   +exe
+   +installer
+     -+Volume
+      --setup (Ejecutar como administrador)
+      
+ +TuCreditoPyme
+   +exe
+   +installer
+     -+Volume
+      --setup (Ejecutar como administrador)
