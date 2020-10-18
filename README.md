@@ -12,19 +12,4 @@ En este reto se crearon dos sistemas:
 la Pyme es sujeta o no a credito.
 
 
-
-Guia de instalacion:
-
--- Compiles
-
- +CreditosPyme
-   +exe
-   +installer
-     -+Volume
-      --setup (Ejecutar como administrador)
-      
- +TuCreditoPyme
-   +exe
-   +installer
-     -+Volume
-      --setup (Ejecutar como administrador)
+- LEER GUIA DE INSTALACION--
