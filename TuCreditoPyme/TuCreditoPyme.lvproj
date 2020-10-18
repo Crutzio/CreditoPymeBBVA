@@ -22,6 +22,7 @@
 		<Item Name="TypeDefSERVER" Type="Folder" URL="../TypeDefSERVER">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Config.ini" Type="Document" URL="../Config.ini"/>
 		<Item Name="MainApp.vi" Type="VI" URL="../MainApp.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -172,12 +173,12 @@
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">Universidad Tecmilenio Reynosa</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">../Compiles/TuCreditoPyme</Property>
+				<Property Name="INST_buildLocation" Type="Path">../Compiles/TuCreditoPyme/installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
 				<Property Name="INST_buildSpecName" Type="Str">TuCreditoPymeBBVA</Property>
 				<Property Name="INST_defaultDir" Type="Str">{2B0FE0F3-BB85-40AE-80F6-DC1C6BC90BAB}</Property>
 				<Property Name="INST_productName" Type="Str">TuCreditoPyme</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.2</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18008007</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Universidad Tecmilenio Reynosa</Property>
@@ -226,7 +227,11 @@
 				<Property Name="Source[3].name" Type="Str">TypeDefSERVER</Property>
 				<Property Name="Source[3].tag" Type="Ref">/My Computer/TypeDefSERVER</Property>
 				<Property Name="Source[3].type" Type="Str">Folder</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[4].dest" Type="Str">{2B0FE0F3-BB85-40AE-80F6-DC1C6BC90BAB}</Property>
+				<Property Name="Source[4].name" Type="Str">Config.ini</Property>
+				<Property Name="Source[4].tag" Type="Ref">/My Computer/Config.ini</Property>
+				<Property Name="Source[4].type" Type="Str">File</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
 		</Item>
 	</Item>
